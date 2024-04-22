@@ -22,7 +22,6 @@ function App() {
             <Route path="/tasks" element={<AllTask />} />
             <Route path="/new" element={<NewTask />} />
             <Route path="/edit/:id" element={<EditTask />} />
-            <Route path="/*" element={<Error404 />} />
           </Routes>
         </AuthProvider>
       </Router>
