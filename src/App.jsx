@@ -6,7 +6,6 @@ import Home from "./pages/Home";
 import AllTask from "./pages/AllTask";
 import NewTask from "./pages/NewTask";
 import EditTask from "./pages/EditTask";
-import Error404 from "./pages/Error404";
 import Navbar1 from "./component/Navbar1";
 import { AuthProvider } from "./context/AuthContext";
 
